@@ -1,0 +1,69 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: gold;
+}
+
+h1{
+    color: brown;
+    background-color: silver;
+}
+
+h2,h3,h4,h5,h6,h7{
+    color: brown;
+    background-color: silver; 
+}
+
+p{
+    font-size: 25;
+    font-weight: 1000;
+}
+
+img{
+ height: 300px;
+ width: 300px; 
+}
+
+/* to call the class, u will start with the "."  */
+
+.a1{
+    color: chartreuse;
+    background-color: brown;
+    font-size: 30;
+    font-weight: 900;
+   }
+
+.a2{
+    color: red;
+    background-color: pink;
+    font-size: 30;
+    font-weight: 900;   
+}
+
+/* to call the id, u will start with "#" */
+
+#b1{
+    color: skyblue;
+    background-color: black;
+    font-size: 40;
+    font-weight: 1200;
+}
+
+#b2,#b3{
+    color: black;
+    background-color: pink;
+    font-size: 50;
+    font-weight: 500;
+}
+
+.b1,.b2{
+    color: brown;
+    background-color: wheat;
+}
+
+h1,h2,h3{
+    display: inline-block
+}
+
+a{
+    display: block;
+}
